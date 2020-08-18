@@ -3,7 +3,7 @@
 > This project goal is to practice the knowledge about active record, models, and associations. We built n application similar to Reddit (called Micro-Reddit) where a user can create a post and add comments to it.
 
 
-This project consist in tree models (User, Post and Comment), that are related as the layout bellow.
+This project consists of three models (User, Post, and Comment), that are related to each other as the layout below.
 
 ![Database Layout](./app/assets/images/layout.png)
 
@@ -24,7 +24,7 @@ This project consist in tree models (User, Post and Comment), that are related a
 
 ## Getting Started
 
-​To have a version on you local machine:
+​To have a version on your local machine:
 
 - Clone this repository
 - Open a terminal on the containing folder of this project
@@ -48,7 +48,7 @@ This project consist in tree models (User, Post and Comment), that are related a
 
 > User.find(2)
 
-- Get all the posts from an user using #posts or all the comments using #comments
+- Get all the posts from a user using #posts or all the comments using #comments
 
 > user1 = User.find(1)
 
@@ -56,7 +56,7 @@ This project consist in tree models (User, Post and Comment), that are related a
 
 > user1.comments
 
-- Its also possible to return the first or the last register of a model using #first or #last
+- It's also possible to return the first or the last register of a model using #first or #last
 
 > user1.first
 
